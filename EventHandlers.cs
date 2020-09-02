@@ -1,5 +1,4 @@
 ﻿using Exiled.API.Features;
-using Exiled.Events.EventArgs;
 
 namespace BlindExplosion.Handlers
 {

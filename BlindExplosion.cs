@@ -1,5 +1,4 @@
 ﻿using BlindExplosion.Handlers;
-using Exiled.API.Enums;
 using Exiled.API.Features;
 using System;
 
@@ -14,7 +13,8 @@ namespace BlindExplosion
 
         private EventHandlers EventHandlers;
 
-        public override string Name { get; } = "RealisticSizes";
+        public override string Name { get; } = "BlindExplosion";
+        public override string Prefix { get; } = "BlindExplosion";
         public override string Author { get; } = "JesusQC";
 
         public override void OnEnabled()
